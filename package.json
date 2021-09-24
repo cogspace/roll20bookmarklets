@@ -1,0 +1,15 @@
+{
+    "name": "roll20bookmarklets",
+    "version": "1.0.0",
+    "description": "Bookmarklets for Roll20",
+    "main": "index.js",
+    "repository": "git@github.com:cogspace/roll20bookmarklets.git",
+    "author": "Jon Molnar <jon@cogspace.com>",
+    "license": "MIT",
+    "dependencies": {
+        "uglifyjs-recursively": "^1.0.9"
+    },
+    "scripts": {
+        "build": "uglifyjs-recursively --mangle src"
+    }
+}
