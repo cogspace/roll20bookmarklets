@@ -7,9 +7,10 @@
     "author": "Jon Molnar <jon@cogspace.com>",
     "license": "MIT",
     "dependencies": {
-        "uglifyjs-recursively": "^1.0.9"
+        "gulp": "^4.0.2",
+        "gulp-bookmarklet": "^1.0.0"
     },
     "scripts": {
-        "build": "uglifyjs-recursively --mangle src"
+        "build": "gulp bookmarklet"
     }
 }
