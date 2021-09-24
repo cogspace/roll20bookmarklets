@@ -6,10 +6,10 @@ Check the Releases page for the most recent build, or use the instructions below
 
 ## Compiling
 
-Run `yarn build` or `npm build` to compile them to `dist/roll20bookmarklets.html`.
+Run `yarn build` or `npm run build` to compile them to `dist/roll20bookmarklets.html`.
 
 ## Documentation
 
--   **Play Playlist** - Plays a playlist specified by title (replace _PLAYLIST NAME_ in the generated bookmark).
--   **Play Track** - Plays a track specified by title (replace _TRACK NAME_ in the generated bookmark).
+-   **Play Playlist** - Plays a playlist specified by title (replace `__PLAYLIST__` in the bookmark).
+-   **Play Track** - Plays a track specified by title (replace `__TRACK__` in the bookmark).
 -   **Stop All Audio** - Stops all currently-playing audio.

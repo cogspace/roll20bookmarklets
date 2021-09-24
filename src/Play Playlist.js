@@ -1,1 +1,5 @@
-$("#jukeboxfolderroot .dd-folder .folder-title:contains(PLAYLIST NAME)").next().find(".play").click();
+var n = "__PLAYLIST__";
+$("#jukeboxfolderroot .folder-title:contains(" + n + ")")
+    .next()
+    .find(".play")
+    .click();
