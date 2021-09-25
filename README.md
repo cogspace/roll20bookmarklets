@@ -1,6 +1,6 @@
 # Roll20 Bookmarklets
 
-This is a set of bookmarklets for Roll20 as introduced [on my blog](//www.cogspace.com/2021/09/24/enhanced-roll20-audio-macros-free-tier-compatible/).
+This is a set of bookmarklets for Roll20 as introduced [on my blog](//www.cogspace.com/roll20-bookmarklets/).
 
 Check the Releases page for the most recent build, or use the instructions below to compile them yourself.
 
