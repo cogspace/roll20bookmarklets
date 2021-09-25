@@ -10,7 +10,7 @@ Run `yarn build` or `npm run build` to compile them to `dist/roll20bookmarklets.
 
 ## Documentation
 
-## 🔊 Audio
+### 🔊 Audio
 
 -   **Play Playlist** - Plays a playlist specified by title (replace `__PLAYLIST__` in the bookmark). _Note: This is case-sensitive._
 -   **Play Track** - Plays a track specified by title (replace `__TRACK__` in the bookmark). _Note: This is case-sensitive._
