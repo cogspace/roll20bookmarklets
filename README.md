@@ -12,21 +12,36 @@ Run `yarn build` or `npm run build` to compile them to `dist/roll20bookmarklets.
 
 ### 🔊 Audio
 
--   **Play Playlist** - Plays a playlist specified by title (replace `__PLAYLIST__` in the bookmark). _Note: This is case-sensitive._
--   **Play Track** - Plays a track specified by title (replace `__TRACK__` in the bookmark). _Note: This is case-sensitive._
--   **Stop All Audio** - Stops all currently-playing audio.
+- **Play Playlist** - Plays a playlist specified by title (replace `__PLAYLIST__` in the bookmark). _Note: This is case-sensitive._
+- **Play Track** - Plays a track specified by title (replace `__TRACK__` in the bookmark). _Note: This is case-sensitive._
+- **Stop All Audio** - Stops all currently-playing audio.
 
 ### 🚀 Macros
 
--   **Start Combat** - Clears the turn tracker, stops all audio, and starts the "Combat" playlist. _Note: This is case-sensitive._
--   **Stop Combat** - Clears the turn tracker, closes it, and stops all audio.
+- **Start Combat** - Clears the turn tracker, stops all audio, and starts the "Combat" playlist. _Note: This is case-sensitive._
+- **Stop Combat** - Clears the turn tracker, closes it, and stops all audio.
 
 ### ⚔ Turn Tracker
 
--   **Clear Turn Tracker** - Clears the turn tracker.
--   **Close Turn Tracker** - Closes the turn tracker dialog.
--   **Next Turn** - Advances to the next turn in the tracker.
--   **Sort Turns Desc** - Sorts the turns in the tracker numerically (descending).
+- **Clear Turn Tracker** - Clears the turn tracker.
+- **Close Turn Tracker** - Closes the turn tracker dialog.
+- **Next Turn** - Advances to the next turn in the tracker.
+- **Sort Turns Desc** - Sorts the turns in the tracker numerically (descending).
+
+### 🎲 Dice Roller
+
+- **Roll d4, 2d6, 5d8, etc.** - Rolls the specified dice.
+- **Toggle GM** - Toggles whether dice rolls are whispered to the GM.
+- **Toggle Inline** - Toggles whether dice rolls are inlined.
+- **Toggle Exploding** - Toggles whether dice explode.
+- **Toggle Compounding** - Toggles whether dice undergo compounding explosion (Shadowrun-style).
+- **Toggle Penetrating** - Toggles whether dice undergo penetrating explosion (Hackmaster-style).
+
+## Installation
+
+Download the bookmarks HTML file from the latest release, then either open it in
+a browser and drag the links to your bookmark bar wherever you want them, or
+import the bookmarks HTML file into your browser and organize them as desired.
 
 ## MIT License
 
