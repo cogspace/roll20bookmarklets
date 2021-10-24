@@ -39,9 +39,10 @@ Run `yarn build` or `npm run build` to compile them to `dist/roll20bookmarklets.
 
 ## Installation
 
-Download the bookmarks HTML file from the latest release, then either open it in
-a browser and drag the links to your bookmark bar wherever you want them, or
-import the bookmarks HTML file into your browser and organize them as desired.
+Download the bookmarks HTML file from [the latest release](releases), then
+either open it in a browser and drag the links to your bookmark bar wherever you
+want them, or import the bookmarks HTML file into your browser and organize them
+as desired.
 
 ## MIT License
 
